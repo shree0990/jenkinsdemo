@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include jenkinsdemo *.css
+recursive-include jenkinsdemo *.csv
+recursive-include jenkinsdemo *.html
+recursive-include jenkinsdemo *.ico
+recursive-include jenkinsdemo *.js
+recursive-include jenkinsdemo *.json
+recursive-include jenkinsdemo *.md
+recursive-include jenkinsdemo *.png
+recursive-include jenkinsdemo *.py
+recursive-include jenkinsdemo *.svg
+recursive-include jenkinsdemo *.txt
+recursive-exclude jenkinsdemo *.pyc
